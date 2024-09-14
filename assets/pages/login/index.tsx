@@ -8,7 +8,6 @@ import Logo from '../../logo-tcc.png';
 
 import {MaterialIcons} from '@expo/vector-icons'
 import { themas } from "../../global/themes";
-import { Input } from "../../components/Input";
 
 export default function Login(){
 
@@ -43,8 +42,7 @@ export default function Login(){
             </View>
 
             <View style={style.boxMid}>
-                <Input> </Input>
-                {/* <Text style={style.titleInput}>ENDEREÇO DE E-MAIL:</Text>
+                <Text style={style.titleInput}>ENDEREÇO DE E-MAIL:</Text>
                 <View style={style.boxInput}>
                     <TextInput 
                         style={style.input}
@@ -64,7 +62,7 @@ export default function Login(){
                         
                     </TextInput>
                     <MaterialIcons name="remove-red-eye" size={20} color={themas.colors.secondary}></MaterialIcons>
-                </View> */}
+                </View>
             </View>
 
             <View style={style.boxBottom}>
