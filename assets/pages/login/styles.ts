@@ -9,7 +9,7 @@ export const style = StyleSheet.create({
         justifyContent:'center'
     },
     boxTop:{
-        height:Dimensions.get('window').height/3,
+        height:Dimensions.get('window').height/3.5,
         width:'100%',
         backgroundColor:themas.colors.primary,
         alignItems:'center',
@@ -17,13 +17,13 @@ export const style = StyleSheet.create({
 
     },
     boxMid:{
-        height:Dimensions.get('window').height/4,
+        height:Dimensions.get('window').height/2.2,
         width:'100%',
         backgroundColor:themas.colors.primary,
         paddingHorizontal:37
     },
     boxBottom:{
-        height:Dimensions.get('window').height/3,
+        height:Dimensions.get('window').height/5,
         width:'100%',
         backgroundColor:themas.colors.primary,
         alignItems:'center',
