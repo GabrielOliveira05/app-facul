@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, Image, TextInput, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
-import { style } from "./styles";
+import { style } from "../../components/Input/styles";
 import Logo from '../../logo-tcc.png';
 import { themas } from "../../global/themes";
 
@@ -94,7 +94,7 @@ export default function Login({ }) {
                 </TouchableOpacity>
             </View>
 
-            <Text style={style.textBottom}>Não tem conta? 
+            <Text style={style.textBottom}>Não tem conta?
                 {/* <Text style={style.textBottomAccount} onPress={() => navigation.navigate('Signup')}> Crie agora!</Text> */}
             </Text>
         </View>

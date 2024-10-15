@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, Image, TextInput, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
-import { style } from "./styles";  // Reutiliza o mesmo arquivo de estilos
+import { style } from "../../components/Input/styles";  // Reutiliza o mesmo arquivo de estilos
 import Logo from '../../logo-tcc.png';
 import { themas } from "../../global/themes";
 
