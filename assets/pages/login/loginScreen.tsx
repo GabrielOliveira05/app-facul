@@ -5,7 +5,7 @@ import { style } from "../../components/Input/styles";
 import Logo from '../../logo-tcc.png';
 import { themas } from "../../global/themes";
 
-export default function Login({ }) {
+export default function Login({ navigation }: { navigation: any }) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);  // Estado de carregamento
@@ -85,7 +85,10 @@ export default function Login({ }) {
             </View>
 
             <View style={style.boxBottom}>
-                <TouchableOpacity style={style.button} onPress={getLogin} disabled={loading}>
+    
+        
+                <TouchableOpacity style={style.button}  disabled={loading}
+                onPress={() => navigation.navigate('HomeScreen')}>
                     {loading ? (
                         <ActivityIndicator color="#FFF" />
                     ) : (
@@ -95,7 +98,7 @@ export default function Login({ }) {
             </View>
 
             <Text style={style.textBottom}>Não tem conta?
-                {/* <Text style={style.textBottomAccount} onPress={() => navigation.navigate('Signup')}> Crie agora!</Text> */}
+                { <Text style={style.textBottomAccount} onPress={() => navigation.navigate('Signup')}> Crie agora!</Text> }
             </Text>
         </View>
     );

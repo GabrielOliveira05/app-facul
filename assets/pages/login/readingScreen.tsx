@@ -4,7 +4,7 @@ import { style } from "../../components/Input/stylesReadingScreen";
 
 export default function ReadingScreen() {
     const resources = [
-        { id: '1', title: 'Introdução ao JavaScript', link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction' },
+        { id: '1', title: 'Introdução ao JavaScript', link: 'https://tse2.mm.bing.net/th?id=OIP.qQDgUP_imfPJZfqlrT_taAHaHa&pid=Api&P=0&h=180' },
         { id: '2', title: 'React Native Documentation', link: 'https://reactnative.dev/docs/getting-started' },
         { id: '3', title: 'Clean Code - Livro', link: 'https://www.devmedia.com.br/livro-clean-code/18588' },
         { id: '4', title: 'Estruturas de Dados e Algoritmos', link: 'https://www.ime.usp.br/~pf/algoritmos/' },
